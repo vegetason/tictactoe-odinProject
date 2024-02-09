@@ -2,3 +2,21 @@ button{
     width: 100px;
     height: 50px;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+}
+
+.play{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body >div{
+    display: flex;
+}
